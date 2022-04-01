@@ -1,0 +1,59 @@
+header {
+    
+    width: 100%;
+    display: flex;
+    // justify-content: space-between;
+    padding-left: 125;
+    padding-right: 125;
+    flex-direction: row;
+   
+
+}
+
+
+    .logo {
+
+        align-items: flex-start;
+        margin-top: 61px;
+    }
+    nav {
+        margin-top: 61px;
+        align-self: flex-end;
+        flex-direction: row;
+        font-family: 'Mulish', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: -0.3461538851261139px;
+        text-align: left;
+        display: flex;
+        list-style-type: none;
+    }
+
+    .nav__list {
+                
+        display: flex;
+        stroke: none;
+        flex-direction: row;
+        // justify-content: flex-end;
+
+     }
+            
+     
+    li {
+        align-self: flex-end;
+        margin-left: 30;
+        stroke: none;
+        list-style: none;
+        list-style-type: none;
+        font-style: normal;
+                
+    }
+
+   
+
+
+
+
+
