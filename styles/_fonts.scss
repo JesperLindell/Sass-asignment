@@ -26,7 +26,7 @@ h3 {
 
 h4 {
 
-    
+    font-family: 'Mulish', sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -70,10 +70,11 @@ li{
 
 hr{
     width: 100%;
-    // background: #D8D8D8;
+    background: #D8D8D8;
     color: #D8D8D8;
     text-shadow: none;
     height: 2px;
+    border: none;
 
 }
 
@@ -90,4 +91,17 @@ hr{
 .italic {
 
     font-style: italic;
+}
+
+.style-none {
+
+    color: #111111;
+    list-style: none;
+    text-shadow: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    stroke: none;
+    
 }
