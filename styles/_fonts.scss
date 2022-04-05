@@ -6,7 +6,7 @@ h1 {
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0px;
-    text-align: left;
+    // text-align: left;
     
 }
 
@@ -18,7 +18,7 @@ h3 {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: 0px;
-    text-align: left;
+    // text-align: left;
 
 
 
@@ -32,7 +32,19 @@ h4 {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.42307689785957336px;
-    text-align: left;
+    // text-align: left;
+
+}
+
+h5 {
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    // text-align: left;
 
 }
 
@@ -44,8 +56,20 @@ h6 {
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0px;
-    text-align: left;
+    // text-align: left;
     
+
+}
+
+p {
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    // text-align: left;
 
 }
 
@@ -61,7 +85,7 @@ li{
     font-weight: 700;
     line-height: 23px;
     letter-spacing: -0.3461538851261139px;
-    text-align: left;
+    // text-align: left;
     color:  #111111;
     list-style: none;
 
@@ -99,6 +123,7 @@ hr{
     list-style: none;
     text-shadow: none;
     list-style-type: none;
+    text-decoration: none;
     margin: 0;
     padding: 0;
     border: none;

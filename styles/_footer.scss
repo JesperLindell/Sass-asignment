@@ -1,9 +1,13 @@
 footer {
 
+    max-width: 80%;
     // margin-left: 125;
     // margin-right: 125;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     flex-direction: row;
+    height: 23px;
 }
 
 .social {

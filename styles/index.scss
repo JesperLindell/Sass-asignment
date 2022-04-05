@@ -1,25 +1,27 @@
 
 
-
-
-@import 'header';
-@import 'main';
-@import 'container';
-@import 'footer';
-@import 'fonts';
-@import 'flex';
-
-
-
-
 body {
 
     padding-top:  60;
     padding-left: 125;
     padding-right: 125;
     padding-bottom: 47;
+    // display: flex;
+    // justify-content: center;
+    // height: fit-content;
     
 }
+
+
+
+@import 'main';
+@import 'header';
+@import 'container';
+@import 'fonts';
+@import 'flex';
+@import 'footer';
+
+
 
 
 

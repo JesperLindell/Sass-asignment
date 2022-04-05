@@ -1,10 +1,30 @@
-.img-container {
+.h1-cont {
+
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    max-width: 1110px;
+}
+.h1-cont > h1 {
+
+    justify-self: flex-start;
+}
+
+.h1-cont > h6 {
+
+    justify-self: flex-start;
+    align-self: flex-end;
+}
+
+
+
+.img-cont {
 
 // margin-left: 115;
 // margin-right: 115;
 margin-top: 134;
-max-width: 1130;
-
+max-width: 1200px;
+justify-self: center;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -21,15 +41,24 @@ flex-wrap: wrap;
 
     }
 
-.text-container1 {
+    .img-col > img {
+
+        margin-top: 15px;
+    }
+
+.text-cont1 {
 
     // margin-left: 115;
     margin-right: 30px;
     margin-top: 81;
+    margin-bottom: 100px;
     height: 106;
-    max-width: 100%;
+    max-width: 80%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    // align-self: center;
     
 
 }
@@ -38,9 +67,65 @@ flex-wrap: wrap;
        
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        align-content: space-around;
+        // flex-wrap: wrap;
+        // justify-content: space-around;
         height: 106px;
+        width: 150px;
+        margin-left: 30px;
+
+    }
+
+    .text-cont2 {
+
+        // margin-left: 115;
+        // margin-right: 30px;
+        margin-top: 50;
+        height: 320;
+        max-width: 1110px;
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    
+    }
+
+
+    .text-col2 {
+       
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        justify-content: space-around;
+        height: 320px;
+        width: 150px;
+        margin-left: 30px;
+
+    }
+
+   
+
+    .text-col3 {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 320px;
+        width: 190px;
+        margin-left: 30px;
+
+    }
+
+   
+   
+
+    .text-col4 {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 320px;
+        width: 150px;
         margin-left: 30px;
 
     }

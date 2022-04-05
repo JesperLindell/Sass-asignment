@@ -1,24 +1,32 @@
 header {
     
-    width: 100%;
+    max-width: 1110;
+    
+    height: 23px; 
+    margin-top: 61px;
+    margin-left: 125;
+    margin-right: 125;
     display: flex;
     // justify-content: space-between;
-    padding-left: 125;
-    padding-right: 125;
+    // padding-left: 125;
+    // padding-right: 125;
     flex-direction: row;
-   
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 
     .logo {
 
-        align-items: flex-start;
-        margin-top: 61px;
+        // align-items: flex-start;
+        // margin-top: 61px;
+        height: 19px;
     }
     nav {
-        margin-top: 61px;
-        align-self: flex-end;
+       
+        // align-self: flex-end;
+        width: 170px;
         flex-direction: row;
         font-family: 'Mulish', sans-serif;
         font-size: 18px;
@@ -42,13 +50,9 @@ header {
             
      
     li {
-        align-self: flex-end;
+        // justify-self: flex-end;
         margin-left: 30;
-        stroke: none;
-        list-style: none;
-        list-style-type: none;
-        font-style: normal;
-                
+        
     }
 
    
